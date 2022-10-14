@@ -54,7 +54,7 @@ General rules:
 - To end the game, simply clikc end button
 
 
-New update from veriosn 1.1:
+New update from veriosn 1.2:
 
 1)Tooltips are added to user interactive components
 
@@ -64,8 +64,8 @@ New update from veriosn 1.1:
 
 GUI looks:
 
-![1](https://user-images.githubusercontent.com/98497929/193498224-7b30a110-8b89-40fd-97bd-4722e26cfebe.PNG)
-![캡처](https://user-images.githubusercontent.com/98497929/193498254-99284a9f-3edc-407d-8ec8-e3e445c70e8d.PNG)
+![1](https://user-images.githubusercontent.com/98497929/195766901-49bbd79b-86f9-411e-a94b-e660099d5aa8.PNG)
+![2](https://user-images.githubusercontent.com/98497929/195766910-47bab377-7626-409f-8330-2705291448bc.PNG)
 ![3](https://user-images.githubusercontent.com/98497929/193498269-632a7fb6-7202-4721-abdc-b607e6906294.PNG)
 ![4](https://user-images.githubusercontent.com/98497929/193498275-5031b1f3-a858-4860-84a8-6456504d0f1a.PNG)
 ![5](https://user-images.githubusercontent.com/98497929/193498281-45c7b704-a8e8-4f42-89da-bea1137c93a2.PNG)
@@ -74,3 +74,8 @@ GUI looks:
 ![8](https://user-images.githubusercontent.com/98497929/193498304-b08de643-3906-4857-83a3-91f0c188ec28.PNG)
 ![9](https://user-images.githubusercontent.com/98497929/193498310-ed003772-2424-4a54-af86-7f9267a34558.PNG)
 ![10](https://user-images.githubusercontent.com/98497929/193498314-1b88774d-a0d9-4218-bbea-a8f2a00fc425.PNG)
+![5](https://user-images.githubusercontent.com/98497929/195766921-c5f26df1-cff2-49c9-afb8-b24ef06fee09.PNG)
+![3](https://user-images.githubusercontent.com/98497929/195766934-e46259f9-db58-4329-9244-630f9795cc9c.PNG)
+![4](https://user-images.githubusercontent.com/98497929/195766950-4ccda9ad-2b9d-4b79-b09e-d51c35a019e1.PNG)
+
+
