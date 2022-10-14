@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" pref="600" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" pref="400" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#xad74;&#xb9bc;" size="36" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="jLabel1"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="200" y="20" width="140" height="50"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#xad74;&#xb9bc;" size="15" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="jLabel2"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="350" y="10" width="110" height="40"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#xad74;&#xb9bc;" size="15" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="jLabel3"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="470" y="10" width="120" height="40"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton1MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton1MouseExited"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jButton1.setVisible(false);&#xa;jButton1.setContentAreaFilled(false);"/>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JButton(){&#xa;    //Paint the round background and label.&#xa;    protected void paintComponent(Graphics g)&#xa;    {&#xa;        if (getModel().isArmed())&#xa;        //You might want to make the highlight color&#xa;        //a property of the RoundButton class.&#xa;        g.setColor(Color.lightGray);&#xa;        else&#xa;        g.setColor(getBackground());&#xa;        g.fillOval(0, 0, getSize().width-1, getSize().height-1);&#xa;        //This call will paint label and focus rectangle.&#xa;        super.paintComponent(g);&#xa;    }&#xa;&#xa;    //Paint the border of the button using a simple stroke.&#xa;    protected void paintBorder(Graphics g)&#xa;    {&#xa;        g.setColor(getForeground());&#xa;        g.drawOval(0, 0, getSize().width-1, getSize().height-1);&#xa;    }&#xa;}"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="90" width="100" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton2MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton2MouseExited"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jButton2.setVisible(false);&#xa;jButton2.setContentAreaFilled(false);"/>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JButton(){&#xa;    //Paint the round background and label.&#xa;    protected void paintComponent(Graphics g)&#xa;    {&#xa;        if (getModel().isArmed())&#xa;        //You might want to make the highlight color&#xa;        //a property of the RoundButton class.&#xa;        g.setColor(Color.lightGray);&#xa;        else&#xa;        g.setColor(getBackground());&#xa;        g.fillOval(0, 0, getSize().width-1, getSize().height-1);&#xa;        //This call will paint label and focus rectangle.&#xa;        super.paintComponent(g);&#xa;    }&#xa;&#xa;    //Paint the border of the button using a simple stroke.&#xa;    protected void paintBorder(Graphics g)&#xa;    {&#xa;        g.setColor(getForeground());&#xa;        g.drawOval(0, 0, getSize().width-1, getSize().height-1);&#xa;    }&#xa;}"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="190" y="90" width="100" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton3">
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton3MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton3MouseExited"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jButton3.setVisible(false);&#xa;jButton3.setContentAreaFilled(false);"/>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JButton(){&#xa;    //Paint the round background and label.&#xa;    protected void paintComponent(Graphics g)&#xa;    {&#xa;        if (getModel().isArmed())&#xa;        //You might want to make the highlight color&#xa;        //a property of the RoundButton class.&#xa;        g.setColor(Color.lightGray);&#xa;        else&#xa;        g.setColor(getBackground());&#xa;        g.fillOval(0, 0, getSize().width-1, getSize().height-1);&#xa;        //This call will paint label and focus rectangle.&#xa;        super.paintComponent(g);&#xa;    }&#xa;&#xa;    //Paint the border of the button using a simple stroke.&#xa;    protected void paintBorder(Graphics g)&#xa;    {&#xa;        g.setColor(getForeground());&#xa;        g.drawOval(0, 0, getSize().width-1, getSize().height-1);&#xa;    }&#xa;}"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="320" y="90" width="100" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton4">
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton4MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton4MouseExited"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jButton4.setVisible(false);&#xa;jButton4.setContentAreaFilled(false);"/>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JButton(){&#xa;    //Paint the round background and label.&#xa;    protected void paintComponent(Graphics g)&#xa;    {&#xa;        if (getModel().isArmed())&#xa;        //You might want to make the highlight color&#xa;        //a property of the RoundButton class.&#xa;        g.setColor(Color.lightGray);&#xa;        else&#xa;        g.setColor(getBackground());&#xa;        g.fillOval(0, 0, getSize().width-1, getSize().height-1);&#xa;        //This call will paint label and focus rectangle.&#xa;        super.paintComponent(g);&#xa;    }&#xa;&#xa;    //Paint the border of the button using a simple stroke.&#xa;    protected void paintBorder(Graphics g)&#xa;    {&#xa;        g.setColor(getForeground());&#xa;        g.drawOval(0, 0, getSize().width-1, getSize().height-1);&#xa;    }&#xa;}"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="450" y="90" width="100" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton5">
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton5MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton5MouseExited"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jButton5.setVisible(false);&#xa;jButton5.setContentAreaFilled(false);"/>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JButton(){&#xa;    //Paint the round background and label.&#xa;    protected void paintComponent(Graphics g)&#xa;    {&#xa;        if (getModel().isArmed())&#xa;        //You might want to make the highlight color&#xa;        //a property of the RoundButton class.&#xa;        g.setColor(Color.lightGray);&#xa;        else&#xa;        g.setColor(getBackground());&#xa;        g.fillOval(0, 0, getSize().width-1, getSize().height-1);&#xa;        //This call will paint label and focus rectangle.&#xa;        super.paintComponent(g);&#xa;    }&#xa;&#xa;    //Paint the border of the button using a simple stroke.&#xa;    protected void paintBorder(Graphics g)&#xa;    {&#xa;        g.setColor(getForeground());&#xa;        g.drawOval(0, 0, getSize().width-1, getSize().height-1);&#xa;    }&#xa;}"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="160" width="100" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton6">
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton6MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton6MouseExited"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jButton6.setVisible(false);&#xa;jButton6.setContentAreaFilled(false);"/>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JButton(){&#xa;    //Paint the round background and label.&#xa;    protected void paintComponent(Graphics g)&#xa;    {&#xa;        if (getModel().isArmed())&#xa;        //You might want to make the highlight color&#xa;        //a property of the RoundButton class.&#xa;        g.setColor(Color.lightGray);&#xa;        else&#xa;        g.setColor(getBackground());&#xa;        g.fillOval(0, 0, getSize().width-1, getSize().height-1);&#xa;        //This call will paint label and focus rectangle.&#xa;        super.paintComponent(g);&#xa;    }&#xa;&#xa;    //Paint the border of the button using a simple stroke.&#xa;    protected void paintBorder(Graphics g)&#xa;    {&#xa;        g.setColor(getForeground());&#xa;        g.drawOval(0, 0, getSize().width-1, getSize().height-1);&#xa;    }&#xa;}"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="190" y="160" width="100" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton7">
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton7MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton7MouseExited"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton7ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jButton7.setVisible(false);&#xa;jButton7.setContentAreaFilled(false);"/>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JButton(){&#xa;    //Paint the round background and label.&#xa;    protected void paintComponent(Graphics g)&#xa;    {&#xa;        if (getModel().isArmed())&#xa;        //You might want to make the highlight color&#xa;        //a property of the RoundButton class.&#xa;        g.setColor(Color.lightGray);&#xa;        else&#xa;        g.setColor(getBackground());&#xa;        g.fillOval(0, 0, getSize().width-1, getSize().height-1);&#xa;        //This call will paint label and focus rectangle.&#xa;        super.paintComponent(g);&#xa;    }&#xa;&#xa;    //Paint the border of the button using a simple stroke.&#xa;    protected void paintBorder(Graphics g)&#xa;    {&#xa;        g.setColor(getForeground());&#xa;        g.drawOval(0, 0, getSize().width-1, getSize().height-1);&#xa;    }&#xa;}"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="320" y="160" width="100" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton8">
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton8MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton8MouseExited"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton8ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jButton8.setVisible(false);&#xa;jButton8.setContentAreaFilled(false);"/>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JButton(){&#xa;    //Paint the round background and label.&#xa;    protected void paintComponent(Graphics g)&#xa;    {&#xa;        if (getModel().isArmed())&#xa;        //You might want to make the highlight color&#xa;        //a property of the RoundButton class.&#xa;        g.setColor(Color.lightGray);&#xa;        else&#xa;        g.setColor(getBackground());&#xa;        g.fillOval(0, 0, getSize().width-1, getSize().height-1);&#xa;        //This call will paint label and focus rectangle.&#xa;        super.paintComponent(g);&#xa;    }&#xa;&#xa;    //Paint the border of the button using a simple stroke.&#xa;    protected void paintBorder(Graphics g)&#xa;    {&#xa;        g.setColor(getForeground());&#xa;        g.drawOval(0, 0, getSize().width-1, getSize().height-1);&#xa;    }&#xa;}"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="450" y="160" width="100" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton9">
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton9MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton9MouseExited"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton9ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jButton9.setVisible(false);&#xa;jButton9.setContentAreaFilled(false);"/>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JButton(){&#xa;    //Paint the round background and label.&#xa;    protected void paintComponent(Graphics g)&#xa;    {&#xa;        if (getModel().isArmed())&#xa;        //You might want to make the highlight color&#xa;        //a property of the RoundButton class.&#xa;        g.setColor(Color.lightGray);&#xa;        else&#xa;        g.setColor(getBackground());&#xa;        g.fillOval(0, 0, getSize().width-1, getSize().height-1);&#xa;        //This call will paint label and focus rectangle.&#xa;        super.paintComponent(g);&#xa;    }&#xa;&#xa;    //Paint the border of the button using a simple stroke.&#xa;    protected void paintBorder(Graphics g)&#xa;    {&#xa;        g.setColor(getForeground());&#xa;        g.drawOval(0, 0, getSize().width-1, getSize().height-1);&#xa;    }&#xa;}"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="230" width="100" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton10">
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton10MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton10MouseExited"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton10ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jButton10.setVisible(false);&#xa;jButton10.setContentAreaFilled(false);"/>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JButton(){&#xa;    //Paint the round background and label.&#xa;    protected void paintComponent(Graphics g)&#xa;    {&#xa;        if (getModel().isArmed())&#xa;        //You might want to make the highlight color&#xa;        //a property of the RoundButton class.&#xa;        g.setColor(Color.lightGray);&#xa;        else&#xa;        g.setColor(getBackground());&#xa;        g.fillOval(0, 0, getSize().width-1, getSize().height-1);&#xa;        //This call will paint label and focus rectangle.&#xa;        super.paintComponent(g);&#xa;    }&#xa;&#xa;    //Paint the border of the button using a simple stroke.&#xa;    protected void paintBorder(Graphics g)&#xa;    {&#xa;        g.setColor(getForeground());&#xa;        g.drawOval(0, 0, getSize().width-1, getSize().height-1);&#xa;    }&#xa;}"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="190" y="230" width="100" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton11">
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton11MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton11MouseExited"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton11ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jButton11.setVisible(false);&#xa;jButton11.setContentAreaFilled(false);"/>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JButton(){&#xa;    //Paint the round background and label.&#xa;    protected void paintComponent(Graphics g)&#xa;    {&#xa;        if (getModel().isArmed())&#xa;        //You might want to make the highlight color&#xa;        //a property of the RoundButton class.&#xa;        g.setColor(Color.lightGray);&#xa;        else&#xa;        g.setColor(getBackground());&#xa;        g.fillOval(0, 0, getSize().width-1, getSize().height-1);&#xa;        //This call will paint label and focus rectangle.&#xa;        super.paintComponent(g);&#xa;    }&#xa;&#xa;    //Paint the border of the button using a simple stroke.&#xa;    protected void paintBorder(Graphics g)&#xa;    {&#xa;        g.setColor(getForeground());&#xa;        g.drawOval(0, 0, getSize().width-1, getSize().height-1);&#xa;    }&#xa;}"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="320" y="230" width="100" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton12">
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton12MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton12MouseExited"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton12ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jButton12.setVisible(false);&#xa;jButton12.setContentAreaFilled(false);"/>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JButton(){&#xa;    //Paint the round background and label.&#xa;    protected void paintComponent(Graphics g)&#xa;    {&#xa;        if (getModel().isArmed())&#xa;        //You might want to make the highlight color&#xa;        //a property of the RoundButton class.&#xa;        g.setColor(Color.lightGray);&#xa;        else&#xa;        g.setColor(getBackground());&#xa;        g.fillOval(0, 0, getSize().width-1, getSize().height-1);&#xa;        //This call will paint label and focus rectangle.&#xa;        super.paintComponent(g);&#xa;    }&#xa;&#xa;    //Paint the border of the button using a simple stroke.&#xa;    protected void paintBorder(Graphics g)&#xa;    {&#xa;        g.setColor(getForeground());&#xa;        g.drawOval(0, 0, getSize().width-1, getSize().height-1);&#xa;    }&#xa;}"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="450" y="230" width="100" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton13">
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton13MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton13MouseExited"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton13ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jButton13.setVisible(false);&#xa;jButton13.setContentAreaFilled(false);"/>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JButton(){&#xa;    //Paint the round background and label.&#xa;    protected void paintComponent(Graphics g)&#xa;    {&#xa;        if (getModel().isArmed())&#xa;        //You might want to make the highlight color&#xa;        //a property of the RoundButton class.&#xa;        g.setColor(Color.lightGray);&#xa;        else&#xa;        g.setColor(getBackground());&#xa;        g.fillOval(0, 0, getSize().width-1, getSize().height-1);&#xa;        //This call will paint label and focus rectangle.&#xa;        super.paintComponent(g);&#xa;    }&#xa;&#xa;    //Paint the border of the button using a simple stroke.&#xa;    protected void paintBorder(Graphics g)&#xa;    {&#xa;        g.setColor(getForeground());&#xa;        g.drawOval(0, 0, getSize().width-1, getSize().height-1);&#xa;    }&#xa;}"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="300" width="100" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton14">
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton14MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton14MouseExited"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton14ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jButton14.setVisible(false);&#xa;jButton14.setContentAreaFilled(false);"/>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JButton(){&#xa;    //Paint the round background and label.&#xa;    protected void paintComponent(Graphics g)&#xa;    {&#xa;        if (getModel().isArmed())&#xa;        //You might want to make the highlight color&#xa;        //a property of the RoundButton class.&#xa;        g.setColor(Color.lightGray);&#xa;        else&#xa;        g.setColor(getBackground());&#xa;        g.fillOval(0, 0, getSize().width-1, getSize().height-1);&#xa;        //This call will paint label and focus rectangle.&#xa;        super.paintComponent(g);&#xa;    }&#xa;&#xa;    //Paint the border of the button using a simple stroke.&#xa;    protected void paintBorder(Graphics g)&#xa;    {&#xa;        g.setColor(getForeground());&#xa;        g.drawOval(0, 0, getSize().width-1, getSize().height-1);&#xa;    }&#xa;}"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="190" y="300" width="100" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton15">
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton15MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton15MouseExited"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton15ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jButton15.setVisible(false);&#xa;jButton15.setContentAreaFilled(false);"/>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JButton(){&#xa;    //Paint the round background and label.&#xa;    protected void paintComponent(Graphics g)&#xa;    {&#xa;        if (getModel().isArmed())&#xa;        //You might want to make the highlight color&#xa;        //a property of the RoundButton class.&#xa;        g.setColor(Color.lightGray);&#xa;        else&#xa;        g.setColor(getBackground());&#xa;        g.fillOval(0, 0, getSize().width-1, getSize().height-1);&#xa;        //This call will paint label and focus rectangle.&#xa;        super.paintComponent(g);&#xa;    }&#xa;&#xa;    //Paint the border of the button using a simple stroke.&#xa;    protected void paintBorder(Graphics g)&#xa;    {&#xa;        g.setColor(getForeground());&#xa;        g.drawOval(0, 0, getSize().width-1, getSize().height-1);&#xa;    }&#xa;}"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="320" y="300" width="100" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton16">
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton16MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton16MouseExited"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton16ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jButton16.setVisible(false);&#xa;jButton16.setContentAreaFilled(false);"/>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JButton(){&#xa;    //Paint the round background and label.&#xa;    protected void paintComponent(Graphics g)&#xa;    {&#xa;        if (getModel().isArmed())&#xa;        //You might want to make the highlight color&#xa;        //a property of the RoundButton class.&#xa;        g.setColor(Color.lightGray);&#xa;        else&#xa;        g.setColor(getBackground());&#xa;        g.fillOval(0, 0, getSize().width-1, getSize().height-1);&#xa;        //This call will paint label and focus rectangle.&#xa;        super.paintComponent(g);&#xa;    }&#xa;&#xa;    //Paint the border of the button using a simple stroke.&#xa;    protected void paintBorder(Graphics g)&#xa;    {&#xa;        g.setColor(getForeground());&#xa;        g.drawOval(0, 0, getSize().width-1, getSize().height-1);&#xa;    }&#xa;}"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="450" y="300" width="100" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
