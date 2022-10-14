@@ -64,7 +64,7 @@ New update from veriosn 1.2:
 
 GUI looks:
 
-![1](https://user-images.githubusercontent.com/98497929/195766901-49bbd79b-86f9-411e-a94b-e660099d5aa8.PNG)
+![1](https://user-images.githubusercontent.com/98497929/195767040-9be78303-41a7-4c7c-b968-1dafd79ed03e.PNG)
 ![2](https://user-images.githubusercontent.com/98497929/195766910-47bab377-7626-409f-8330-2705291448bc.PNG)
 ![3](https://user-images.githubusercontent.com/98497929/193498269-632a7fb6-7202-4721-abdc-b607e6906294.PNG)
 ![4](https://user-images.githubusercontent.com/98497929/193498275-5031b1f3-a858-4860-84a8-6456504d0f1a.PNG)
